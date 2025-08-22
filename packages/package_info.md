@@ -68,3 +68,27 @@ from mypkg import data
 call for AWS, Github or jira API's and httpd request
 
 - you can write modules and push modules to python hub/artifactory/PYPI(python package index)
+
+
+  --------------------------------------------------
+
+  Pip is Python’s package installer. It’s the tool you use to install, upgrade, and manage third-party libraries and packages from the Python Package Index (PyPI) and other repositories.
+
+Key points:
+
+Installing packages: Running commands like pip install requests adds the library to your Python environment.
+Managing versions: You can specify versions, e.g., pip install "requests>=2.25,<3.0", or upgrade with pip install --upgrade numpy.
+Virtual environments: It’s common to use pip inside a virtual environment (created with python -m venv env or virtualenv) to keep project dependencies isolated.
+Listing and removing: pip list shows installed packages; pip uninstall package-name removes a package.
+Requirements files: You can capture dependencies in a file (usually named requirements.txt) and install all of them with pip install -r requirements.txt.
+Common commands:
+
+Install a package: pip install package-name
+Install a specific version: pip install package-name==1.2.3
+Upgrade a package: pip install --upgrade package-name
+Freeze installed packages (for a requirements file): pip freeze > requirements.txt
+Install from a requirements file: pip install -r requirements.txt
+Check pip version: pip --version (or python -m pip --version to be explicit)
+Note on Python versions:
+
+In some systems, pip might point to Python 2, while pip3 targets Python 3. If you’re using Python 3, you might run pip3 install ... or use python3 -m pip install ... to be explicit.
