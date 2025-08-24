@@ -18,3 +18,14 @@ for id in range(len(list)):
 for i in range(0,22,2):
     print(f"even no. : {i}")
 
+
+
+# while and break in for loop
+for i in range(1,20):
+    if i == 11:
+        print("not print 10")
+        continue
+    if i == 15:
+        print("stop from 15")
+        break
+    print(f"num : {i}")
