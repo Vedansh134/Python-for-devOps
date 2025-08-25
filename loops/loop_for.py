@@ -29,3 +29,19 @@ for i in range(1,20):
         print("stop from 15")
         break
     print(f"num : {i}")
+
+
+# create /modify/separate list from existing list
+tech_stack = ["python","java","node.js","aws"]
+techC = []
+for tech in tech_stack:
+    cap = tech.upper()
+    techC.append(cap)
+print(techC)
+
+# Nested loop multiplication table
+for i in range(1,11):
+    row = []
+    for j in range(1,11):
+        row.append(i*j)
+    print(row)
