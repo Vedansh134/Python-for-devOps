@@ -10,6 +10,8 @@ try:
 
 except FileNotFoundError:
     print("File not exist that users want")
+except PermissionError:
+    print(f"Permission denied for {f}")
 
 finally:
     f.close()
