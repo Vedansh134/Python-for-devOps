@@ -1,0 +1,17 @@
+2023-09-02T12:00:01Z INFO Starting application...
+2023-09-02T12:00:02Z INFO Connecting to database at db.example.com...
+2023-09-02T12:00:02Z INFO Database connection established successfully.
+2023-09-02T12:00:03Z INFO Listening for incoming requests on port 8080.
+2023-09-02T12:00:05Z ERROR Failed to process request: User not found (UserID: 12345)
+2023-09-02T12:00:06Z INFO Received request from IP 192.168.1.1.
+2023-09-02T12:00:06Z INFO Processing request for endpoint /api/data...
+2023-09-02T12:00:06Z ERROR Database query failed: SELECT * FROM users WHERE id = 12345
+2023-09-02T12:00:07Z INFO Responding with 404 Not Found for endpoint /api/data.
+2023-09-02T12:00:08Z INFO Cleaning up resources...
+2023-09-02T12:00:09Z ERROR Unhandled exception: NullReferenceException in line 42 of DataService.cs
+2023-09-02T12:00:10Z INFO Application shutting down gracefully.
+2023-09-02T12:00:11Z INFO All resources cleaned up successfully.
+
+
+
+2023-09-02T12:00:12Z ERROR Application crashed unexpectedly.

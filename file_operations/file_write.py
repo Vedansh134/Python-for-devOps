@@ -14,4 +14,4 @@ except PermissionError:
 
 finally:
     w.close()
-    print(f"Is file closed? {w}")
+    print(f"Is file closed? {w.closed}")
