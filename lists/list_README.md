@@ -14,7 +14,7 @@
 - Heterogeneous Lists: Contain elements of different data types.
   ```python
   mixed = [1, "two", 3.0, [4, 5]]
- ```
+  ```
 
 ## Creating a List
 
