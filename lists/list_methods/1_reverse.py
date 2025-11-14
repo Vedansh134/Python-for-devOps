@@ -1,4 +1,4 @@
-# Explore different methods of lists
+# Reverse method in python
 mixed_list = [2,"devOps", True, "",78,"cloud",0]
 
 mixed_list.reverse()
