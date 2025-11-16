@@ -1,5 +1,7 @@
-# Reverse method in python
-mixed_list = [2,"devOps", True, "",78,"cloud",0]
+# Reverse method in list
+# Used : To reverse the elements of list
+
+mixed_list = [2,"devOps",True,"",78,"cloud",0]
 
 mixed_list.reverse()
 print(mixed_list)
