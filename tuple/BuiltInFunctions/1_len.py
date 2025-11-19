@@ -7,8 +7,6 @@ tuple = (2,4,6,8,(1,3,5,7),10,True,""," ","string",0,10)
 
 length = len(tuple)
 print(f"Length of the tuple : {length}")
-print(type(length))
 
-# Output:
+# Output :
 # Length of the tuple : 13
-# <class 'int'>
