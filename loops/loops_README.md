@@ -7,7 +7,7 @@
 
 - Python primarily uses two types of loops: `while` loops and `for` loops.
 
-**While Loop** : Repeats a block of code as long as a specified condition is true.
+- **While Loop** : Repeats a block of code as long as a specified condition is truecd .
 
     Example :
     ```python
