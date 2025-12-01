@@ -12,6 +12,12 @@ try:
     with open(file_path,"a") as file:
         file.writelines(lines_to_append)
 
+        print(f"Print successfully to file : {file_path}")
+        print(f"Check file mode : {file.mode}")
+        print(f"Check file open or not : {file.closed}") # false
+
+    print(f"Now check file is closed or not ? : {file.closed}") # true
+
 except FileNotFoundError:
     print(f"File is not found!. May be incorrect file name")
 except Exception as e:
