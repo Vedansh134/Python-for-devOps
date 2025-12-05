@@ -11,6 +11,9 @@ def describe_pet(animal_type,animal_name):
 animal = describe_pet(type,name)
 print(animal)
 
+# Positional call: order matters
+# describe_pet('dog', 'Buddy') also
+
 # Output :
 # Enter your pet type : dog
 # Enter your pet name : buddy
