@@ -1,9 +1,0 @@
-This is the first line.
-This is the second line.
-This line is update.
-
- This content is in appending way
- This content is in appending way twice
-line1
-line2
-line3
