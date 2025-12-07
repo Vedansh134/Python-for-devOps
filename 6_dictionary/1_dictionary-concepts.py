@@ -42,3 +42,15 @@ print("\n")
 # Access the values
 values = aws_instance_info.values()
 print(values)
+
+# len of dictionary
+length = len(aws_instance_info)
+print(f"\nlength : {length}")
+
+# copy the dictionary
+copy = aws_instance_info.copy()
+print(f"\nCopy the dictionary : \n\t{copy}")
+
+# clear the dictionary
+aws_instance_info.clear()
+print(aws_instance_info)
