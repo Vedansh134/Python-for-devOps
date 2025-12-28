@@ -11,14 +11,5 @@ def max_no(no1,no2,no3,no4):
         print(f"No4 is big : {no4}")
 
 # using the built-in max() function
-# max_no = max(no1,no2,no3,no4)
-
-def main():
-    no1 = int(input("Enter no1 : "))
-    no2 = int(input("Enter no2 : "))
-    no3 = int(input("Enter no3 : "))
-    no4 = int(input("Enter no4 : "))
-
-    max_no(no1,no2,no3,no4)
-
-main()
+max_no = max(no1,no2,no3,no4)
+print(f"Max no. : {max_no}")
