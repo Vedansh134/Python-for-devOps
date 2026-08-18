@@ -64,5 +64,5 @@ position = ec2_info.find("us-east-1")
 print(f"Location : {position}")
 
 # for practice and learning purpose change/add code : hard-reset
-print("hard reset")
+print("hard reset, forcefully change in git code fopr raise conflict and learn this concept")
 
