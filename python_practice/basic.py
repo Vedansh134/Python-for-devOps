@@ -64,5 +64,5 @@ position = ec2_info.find("us-east-1")
 print(f"Location : {position}")
 
 # for practice and learning purpose change/add code : hard-reset
-print("hard reset")
+print("hard reset and other change in vscode for raise intentionally conflict issue")
 
