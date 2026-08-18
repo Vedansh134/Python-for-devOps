@@ -63,5 +63,6 @@ ec2_info = "t2.micro instance in us-east-1"
 position = ec2_info.find("us-east-1")
 print(f"Location : {position}")
 
-
+# for practice and learning purpose change/add code : hard-reset
+print("hard reset")
 
