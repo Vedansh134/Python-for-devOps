@@ -67,3 +67,13 @@ print(f"Location : {position}")
 print("hard reset and other change in vscode; forcefully changing Git code to intentionally raise a conflict and learn this concept")
 
 
+# Join method 
+tech = ["aws","azure","gcp","docker","kubernetes"]
+joined = ";".join(tech)
+print(f"Joined string : {joined}")
+
+
+# find method
+s3_url = "s3.multistack.us-east-1.amazonaws.com"
+find_region=s3_url.find("us-east")
+print(f"Find region : {find_region}")
