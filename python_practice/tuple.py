@@ -93,3 +93,5 @@ rev_data = reversed(tuple_make)
 print(f"Reversed : {tuple(rev_data)}")
 
 print(f"Again rev : {tuple(reversed(tuple_make))}")
+
+print(f"Reversed via slicing: {tuple_make[::-1]}")
