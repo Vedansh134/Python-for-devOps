@@ -7,14 +7,17 @@ print("It is inmutable.\nCan hold multiple value.\nTuple is ordered, allowed dup
 empty_tuple=()
 print(type(empty_tuple))
 
-tuple = (1,2,(4,5,"m"),"string",True)
-print(f"Values of tuple : {tuple[::-1]}")
-print(f"Print particular value : {tuple[1]}")
-print(f"Print particular value : {tuple[2][1]}")
-print(f"Print inner octet value in reverse : {tuple[2][::-1]}")
+tuple_no = (1,2,(4,5,"m"),"string",True)
+print(f"Values of tuple : {tuple_no[::-1]}")
+print(f"Print particular value : {tuple_no[1]}")
+print(f"Print particular value : {tuple_no[2][1]}")
+print(f"Print inner octet value in reverse : {tuple_no[2][::-1]}")
+
 
 # =======================================================================================================
 # Different operations in tuple
+# =======================================================================================================
+
 
 # Concatenation 
 tup1 = ("frontend","backend")
@@ -40,6 +43,7 @@ print(f"Slicing : {slicing1}")
 
 # =======================================================================================================
 # Different operators in tuple
+# =======================================================================================================
 
 
 # in operation : To check element is present or not in tuple
@@ -57,3 +61,35 @@ if find not in devops:
     print("yes it is not present in list")
 else:
     print('It is present in list')
+    
+    
+
+# =======================================================================================================
+# Built-in function in tuple
+# =======================================================================================================
+
+# len()
+aws_svc=("ec2","iam","s3","vpc","ecr")
+print(f"\nLength of tuple : {len(aws_svc)}")
+
+
+# max, min and sum
+no=(2,3,3,4,44,3,2,4,4,45,22,3,0,-9)
+
+print(f"Max no. : {max(no)}")
+print(f"Min no. : {min(no)}")
+print(f"Sum of no : {sum(no)}")
+
+
+# tuple() that convert other data types like list into tuple
+list_data = [1, 2, 3, 4, 5, "string", 7.8]
+
+tuple_make = tuple(list_data)
+print(f"Converted Tuple : {tuple_make}")
+
+
+# reversed()
+rev_data = reversed(tuple_make)
+print(f"Reversed : {tuple(rev_data)}")
+
+print(f"Again rev : {tuple(reversed(tuple_make))}")
