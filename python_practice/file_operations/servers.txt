@@ -1,0 +1,5 @@
+web-01,10.0.1.10,running,45
+web-02,10.0.1.11,running,82
+db-01,10.0.1.20,warning,94
+cache-01,10.0.1.30,running,30
+auth-01,10.0.1.40,critical,97
