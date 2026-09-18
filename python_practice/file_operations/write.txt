@@ -1,0 +1,2 @@
+Write text into the file.
+	This operation is perform by vedansh!
